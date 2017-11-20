@@ -1,0 +1,88 @@
+#container{
+	background-color: #99e6e6;
+	height: 680px;
+	width: 500px;
+	padding: 5px 10px 3px 10px;
+	border: 2px solid black;
+}
+
+h1{
+	background-color: #ff8000;
+	width: 200px;
+	padding: 15px 5px 15px 5px;
+	color: white;
+	margin: 2px 1px 8px 1px;
+	font-size: 25px;
+}
+
+#gameInstructions{
+	margin: 0px 1px 0px 1px;
+	height: 340px;
+	width: 400px;
+	padding: 10px 5px 10px 5px;
+	background-color: #ffe6cc;
+}
+
+p{
+	color: green;
+}
+
+#randomScore{
+	background-color: #85e085;
+	height: 75px;
+	width: 150px;
+	margin: 6px 1px 8px 1px;
+	float: left;
+}
+
+#userStats{
+	height: 75px;
+	width: 75px;
+	margin: 6px 1px 8px 160px;
+	background-color: #80ffff;
+	
+}
+
+#clearfix{
+	clear: none;
+}
+#crystalImages, li{
+	text-decoration: none;
+	float: left;
+	list-style-type: none;
+}
+
+ul{
+	margin-left: -41px;
+	margin-top: 2px;
+}
+
+img{
+	height: 50px;
+	width: 50px;
+	margin: 1px 2px 1px 4px;
+	padding: none;
+}
+
+#crystalImages{
+	padding-left: 1px;
+	justify-content: left;
+	
+}
+
+#totalScore{
+	float: left;
+	background-color: #00b3b3;
+	width: 175px;
+	color: white;
+}
+
+#displayedScore{
+	float: left;
+	background-color: #00b3b3;
+	width: 175px;
+	height: 75px;
+	color: white;
+	margin-top: 8px;
+
+}
