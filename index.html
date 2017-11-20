@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Collector Game
+  </title>
+
+	<link rel="stylesheet" href="style.css">
+	
+	
+  </head>
+
+<!-- <script type="text/javascript" src="cc-game.js"></script> -->
+
+<body onload = "initialize()">
+
+<div id="container">	
+	<h1>CrystalsCollector!</h1>
+	<div id="gameInstructions">
+	  <p>You will be given a random number on the start of the game.</p>
+	  <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p>
+	  <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+	  <p>The value of each crystal is hidden from you until you click on it.</p>
+	  <p>Each time when the game starts, the game will change the values of each crystal.</p>
+	</div>
+
+	<div id="randomScore"></div>
+
+	<div id="userStats"></div>
+
+	<div id="clearfix"></div>
+
+	<div id="crystalImages">
+		<ul>
+			<li><img src="./Crystal images/red.png" alt="Red Crystal"></li>
+			<li><img src="./Crystal images/blue.png" alt="Blue Crystal"></li>
+			<li><img src="./Crystal images/yellow.png" alt="Yellow Crystal"></li>
+			<li><img src="./Crystal images/green.png" alt="Green Crystal"></li>
+		</ul>
+
+	<div id= "totalScore">Your total score is:</div>
+
+	<div id="clearfix"></div>
+
+	<div id= "displayedScore"></div>
+
+</div>
+	
+
+</body>
+
+</html>
