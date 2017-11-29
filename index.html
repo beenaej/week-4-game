@@ -6,14 +6,17 @@
   <title>Crystal Collector Game
   </title>
 
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
 	
 	
   </head>
 
-<!-- <script type="text/javascript" src="cc-game.js"></script> -->
 
-<body onload = "initialize()">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./assets/javascript/game.js"></script>	
+
+
+<body>
 
 <div id="container">	
 	<h1>CrystalsCollector!</h1>
@@ -27,16 +30,30 @@
 
 	<div id="randomScore"></div>
 
-	<div id="userStats"></div>
+	<div class= "winsAndLosses">
+
+			<h2>Wins:
+
+			<span id= "numberWins"></span>
+
+			</br>
+
+			Losses: 
+
+			<span id= "numberLosses"></span>
+
+		</h2>
+
+	</div>
 
 	<div id="clearfix"></div>
 
 	<div id="crystalImages">
 		<ul>
-			<li><img src="./Crystal images/red.png" alt="Red Crystal"></li>
-			<li><img src="./Crystal images/blue.png" alt="Blue Crystal"></li>
-			<li><img src="./Crystal images/yellow.png" alt="Yellow Crystal"></li>
-			<li><img src="./Crystal images/green.png" alt="Green Crystal"></li>
+			<li><button id="redButton"><img src="./Crystal images/red.png" alt="Red Crystal"></button></li>
+			<li><button id="blueButton"><img src="./Crystal images/blue.png" alt="Blue Crystal"></button></li>
+			<li><button id="yellowButton"><img src="./Crystal images/yellow.png" alt="Yellow Crystal"></button></li>
+			<li><button id="greenButton"><img src="./Crystal images/green.png" alt="Green Crystal"></button></li>
 		</ul>
 
 	<div id= "totalScore">Your total score is:</div>
