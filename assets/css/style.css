@@ -15,6 +15,13 @@ h1{
 	font-size: 25px;
 }
 
+h2{
+	font-size: 10px;
+	padding-left: 20px;
+	padding-top: 20px;
+	/*margin-top: 3px;*/
+}
+
 #gameInstructions{
 	margin: 0px 1px 0px 1px;
 	height: 340px;
@@ -31,15 +38,18 @@ p{
 	background-color: #85e085;
 	height: 75px;
 	width: 150px;
-	margin: 6px 1px 8px 1px;
+	margin: 8px 1px 8px 1px;
 	float: left;
+	font-size: 40px;
+	padding-left: 5px;
 }
 
-#userStats{
+.winsAndLosses{
 	height: 75px;
 	width: 75px;
-	margin: 6px 1px 8px 160px;
+	margin: 4px 1px 8px 160px;
 	background-color: #80ffff;
+	justify-content: center;
 	
 }
 
@@ -81,7 +91,7 @@ img{
 	float: left;
 	background-color: #00b3b3;
 	width: 175px;
-	height: 75px;
+	height: 65px;
 	color: white;
 	margin-top: 8px;
 
