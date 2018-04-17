@@ -22,3 +22,5 @@ When the game begins again, the player should see a new random number. Also, all
 
 
 The app shows the number of games the player wins and loses.
+
+This app dynamically updates the HTML pages with the jQuery library.
